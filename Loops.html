@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> JavaScript Loops </h2>
+        <p> for loop <br> while loop <br> do-while loop <br> for-in loop </p>
+
+        <script>
+            for(number=10; number<15; number++)
+            {
+                document.write(number + "<br/>");
+            }
+            document.write("---------------------------------");
+            for(let numb=10; numb<15; numb++)
+            {
+                document.write(numb + "<br/>");
+            }
+            document.write("---------------------------------");
+            for(var num=10; num<15; num++)
+            {
+                document.write(num + "<br/>");
+            }
+
+            document.write("This is an exmplae fo While loop");
+
+            var expression = 11;
+            while (expression <=15) //Checks th conditon
+            {
+                document.write(expression + "<br/>"); //prints on the screen
+                expression++; // increment or decrement.
+            }
+            document.write("This do while loop example");
+            let rupees=100;
+            do{
+                document.write(rupees + "<br/>");
+                rupees++;
+            }while(rupees<=125);
+
+            </script>
+    </body>
+</html>

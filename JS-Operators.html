@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> JavaScript Operators </h2>
+
+        <p id = "Operators"></p>
+        <p id = "instance"></p> 
+        <p id = "jade"></p>
+    <script>
+        let x= 100;
+        let y = 200;
+        let result = x+y;  
+        document.getElementById("Operators").innerHTML= "Addition of 100 and 200 is " +
+        " "  +  result;    
+
+        console.log("Addition of two numbers 100 and 200 " + result)   ;
+
+        //JS operator
+        // Arithamtic Operators
+        // + , - , * ,/ , % , ** , ++, -- 
+
+        let number_one = 7;
+        let number_two = 9;
+        let add = number_one+number_two;
+        let sub = number_one-number_two;
+        let mul = number_one*number_two;
+        let div = number_one/number_two;
+        // Modulous operator
+        let mod = number_one%number_two;
+        // Exponential opetator
+        let expo = number_one**number_two;
+        // Unary operators
+        let postincre= number_one++   ;
+        let preincre = ++number_one;
+        let postdecre = number_one--;
+        let predecre = --number_one;
+        document.getElementById("instance").innerHTML= "JavaScript Operators " +
+        add + "<br/>" + sub + "<br/>" + mul + "<br>" + div + "<br/>" +
+        mod + "<br/>" + expo + "<br/>" + postincre+ "<br/>" + preincre+ "<br/>" +
+        postdecre + "<br/>" + predecre;
+        <h4> Assignment Operators </h4>
+             =      ----> Assignment operator 
+             // Note : Let x = 10; 
+             //+=	x+=10 ---> x = x+10 -> 10+10 ==> 20
+             //-=	x-=20 ---> x= x-20 --> 10-20 ===> -10
+             //*=	  x*=15 -----> x = x*15 --> 10 * 15  ==> 150
+             //=	
+             //%=	
+             //<<=	
+             //>>=	
+             //>>>=
+             //<<<=	
+             //&=	
+             //^=	
+             //|=	
+             //**=
+             let value = 10;
+             let green = 20;
+             let res = (value == green && value == green); 
+             document.write("res");   
+         </script> 
+        
+                       
+     
+
+    </body>
+</html>

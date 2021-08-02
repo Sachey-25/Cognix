@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> JavaScript Variables </h2>
+        <p> This is an Example Demonstartion </p>
+        <p id="demo"> </p>
+        <p id ="Bill"> </p>
+        <p id = "Profile"></p>
+        <p id = "Free"></p>
+        <script>
+                var value = 100;
+                var value2 = 200;
+                //DOM
+                document.getElementById("demo").
+                innerHTML = "Programming is fun and the value of value2" + " " + value2 ;
+                console.log(value);
+                console.log(value2);
+
+                var price_jeans=500;
+                var price_Shirt=450;
+                var bill = price_jeans+price_Shirt;
+            document.getElementById("Bill").
+            innerHTML= "Total bill of Jenas and Shirt is " + " " + bill;
+
+        // Commenting  -- Defining variable in another way 
+            var trainer = "Sachin A", Skills = "JavaScript", City ="Bangalore";
+            document.getElementById("Profile").innerHTML = "Hey, EveryOne!!!" +
+            "My name is" + trainer + "I know something about" + Skills + "I belong to" + City; 
+
+            let x =10;
+            document.getElementById("Free").innerHTML = x;
+
+        </script>
+    </body>
+</html>

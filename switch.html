@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> JavaScript Switch statements </h2>
+    <p> JS Switch statements is used to execute one code from multiple expressions.
+    it is just like if else if statement. </p>
+
+   <p> Syntax
+    switch(expression){
+        case <test1>:
+            // if this block is true ,, code executes;
+            break;
+        case <test2>:
+            // if this block is true ,, code executes;
+            break;
+        case <test3>:
+                // if this block is true ,, code executes;
+            break;
+        case <test4>:
+                // if this block is true ,, code executes;
+            break;
+        default:
+        anything you want to print
+
+        } </p>
+
+        <script>
+            let salary = '25000';
+            let result;
+            switch(salary){
+                case '20000':
+                    result = "Employee has a salary of 20000";
+                    //break;
+                case '22000':
+                    result = "Employee has a salary of 22000";
+                    //break;
+                case '24000':
+                    result = "Employee has a salary of 24000";
+                    //break;
+                case '25000':
+                    result = "Employee has a salary of 25000";
+                   // break;
+                default:
+                    result = "Employee salary record is not found";
+            }
+            document.write(result)
+        </script>
+
+
+
+    </body>
+</html>
