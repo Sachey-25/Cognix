@@ -1,0 +1,56 @@
+<DOCTYPE html>
+    <html>
+        <head>
+                <title> JavaScript Object </title>
+        </head>
+    <body>
+        <p> Programming is fun <b> Programming with Sachin </b></p>
+        <p> This is an example to find HTML Tag Name</p>
+
+        <div id = "java">
+            <p> Finding HTML Element by Tag Name</p>
+            <p> This is an Example to demonstrate the 
+                <strong>get getElementsByTagName</strong> 
+            </p> 
+        </div>
+        
+         
+        <p id = "Example"></p>
+        <p id="pass"> Lets check What happens </p>
+        <p id="demo"> </p>
+        <script>
+            const element = document.getElementsByTagName("p");
+            document.getElementById("Example").innerHTML =  
+            'The letter present in the first paragraph (index 1) is :::::---> ' + element[1].innerHTML;
+
+            const a=document.getElementById("java");
+            const y=a.getElementsByTagName("p");
+
+            document.getElementById("demo").innerHTML =
+            "The first paragrapgh (index 0) inside java tag ID is " +  y[0].innerHTML;
+
+            document.getElementById("pass").innerHTML = "Programming with Sachin";
+    
+            document.write("JavaScripting");
+            document.write(Date());
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+    </body>

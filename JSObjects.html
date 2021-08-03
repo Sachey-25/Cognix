@@ -1,0 +1,55 @@
+<DOCTYPE html>
+    <html>
+        <head>
+                <title> JavaScript Object </title>
+        </head>
+    <body>
+        <p id = "demo"></p>
+        <p id = "Person"></p>
+        <p id ="object"></p>
+        <p id = "objec"></p>
+    <script> 
+        let cart = "Range Rover";
+        document.getElementById("objects").innerHTML = cart;
+        //create the object
+        const car = {name:"Range_Rover", type:"Manual", model :"2021", color: "white"};
+        document.getElementById("objects").innerHTML = "The name of the car is "+ car.name;
+        document.getElementById("object").innerHTML = "The type of the car is "+ car.type;
+        document.getElementById("objec").innerHTML = "The model of the car is "+ car.model;
+
+        const currency ={
+            //Property : //Property Value
+            India : "Indian Rupees",
+            USA : "US Dollars",
+            London : "Ponds",
+            Japan : "Yen"
+        };
+        // document.getElementById("demo").innerHTML = "Currency of India is " + currency.India;
+        document.getElementById("demo").innerHTML = "Currency of India is " + currency["India"];
+// Note : Accessgin ObjectProperties
+// Objectname.Propertyname
+// Objecname["propername"]
+
+        const person ={
+            firstname : "Sachin",
+            lastname : "Anil",
+            id : 123456,
+            city : "Bidar",
+            Pin : 585414,
+            fullname : function () {
+                return this.firstname + " " + this.lastname;
+            }
+        };
+        document.getElementById("Person").innerHTML = "My fullname is"+ " "  + person.fullname();
+
+
+
+
+
+
+
+
+    </script>
+
+    </body>
+</html>
