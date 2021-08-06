@@ -4,7 +4,9 @@
   "description": "My First NodeJS Project",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "upper-case": "^2.0.2"
   },
   "devDependencies": {},
   "scripts": {
