@@ -1,20 +1,15 @@
 {
   "name": "package",
   "version": "1.0.0",
-  "description": "My First NodeJS Project",
+  "description": "This is an Example NOde.js Project using ExpressJS",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "formidable": "^1.2.2",
-    "upper-case": "^2.0.2"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Nodejs"
-  ],
-  "author": "Sachin Anil",
-  "license": "ISC"
+  "author": "Sachin A",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
 }
